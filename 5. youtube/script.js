@@ -60,7 +60,7 @@
 
   const onMouseOut = (e) => {
     const webpPlay = e.target.parentNode.querySelector("source");
-    webpPlay.setAttribute("srcset", "http://via.placeholder.com/100");
+    webpPlay.setAttribute("srcset", "./assets/sample.jpg");
   };
 
   const hashChange = (e) => {
